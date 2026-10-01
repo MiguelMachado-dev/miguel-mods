@@ -7,6 +7,11 @@
       "name": "turn-telemetry",
       "source": "./turn-telemetry",
       "description": "Band above the prompt with per-turn telemetry: duration, TTFT, tok/s sparkline, tokens, requests and stalls"
+    },
+    {
+      "name": "prompt-enhancer",
+      "source": "./prompt-enhancer",
+      "description": "Rewrite a prompt with Sonnet 5.5 (high effort) and put it back in the prompt box for review: end it with ' ++' or use /enhance"
     }
   ]
 }

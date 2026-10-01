@@ -1,0 +1,7 @@
+{
+  "name": "prompt-enhancer",
+  "version": "0.1.0",
+  "description": "Rewrite a prompt with Sonnet 5.5 (high effort) and put it back in the prompt box for review: end it with ' ++' or use /enhance",
+  "author": { "name": "Miguel Machado" },
+  "types": "./types/index.d.ts"
+}
