@@ -1,0 +1,7 @@
+{
+  "name": "turn-telemetry",
+  "version": "0.1.0",
+  "description": "Band above the prompt with per-turn telemetry: duration, TTFT, tok/s sparkline, tokens, requests and stalls",
+  "author": { "name": "Miguel Machado" },
+  "types": "./types/index.d.ts"
+}

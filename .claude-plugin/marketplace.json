@@ -1,0 +1,12 @@
+{
+  "name": "miguel-mods",
+  "description": "Claude Code mods by Miguel Machado",
+  "owner": { "name": "Miguel Machado" },
+  "plugins": [
+    {
+      "name": "turn-telemetry",
+      "source": "./turn-telemetry",
+      "description": "Band above the prompt with per-turn telemetry: duration, TTFT, tok/s sparkline, tokens, requests and stalls"
+    }
+  ]
+}
