@@ -4,6 +4,8 @@ A Claude Code mod that rewrites a prompt with Sonnet 5.5 at high effort and puts
 
 Needs Claude Code 2.1.287 or later.
 
+[Privacy](https://github.com/MiguelMachado-dev/miguel-mods/blob/main/prompt-enhancer/README.md#what-it-sends-and-where): what the mod sends and where.
+
 ## Usage
 
 - End a prompt with ` ++` and press Enter: the prompt is not sent, and the rewrite comes back to the box. Nothing enters the conversation.
