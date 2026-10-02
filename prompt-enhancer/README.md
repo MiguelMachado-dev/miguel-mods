@@ -12,6 +12,8 @@ Needs Claude Code 2.1.287 or later.
 
 If the call fails, your prompt comes back to the box as you wrote it.
 
+To catch ` ++`, the mod hooks `prompt.submit`. It acts only on a prompt typed in the prompt box that ends with ` ++`, which it holds back instead of sending. Every other prompt, including one that another mod submits, passes through unchanged.
+
 ## What it sends and where
 
 Each enhancement is one model call to `claude-sonnet-5-5` made through Claude Code, on your own plan or API key, so it counts toward your usage. The call carries:
